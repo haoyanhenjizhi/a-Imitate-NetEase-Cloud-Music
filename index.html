@@ -1,0 +1,2264 @@
+<!DOCTYPE html>
+<html lang="ch-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/base.css">
+  <script src="js/animate.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/animateY.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>网易云音乐</title>
+</head>
+
+<body>
+  <!-- 这里为头部导航栏区域 -->
+  <div class="g-topbar">
+    <div class="m-top">
+      <div class="wrap">
+        <a href="index.html">
+          <h1 class="logo"></h1>
+        </a>
+        <ul class="j-tflag m-nav">
+          <li><span><a href="index.html" class="z-slt"><em>发现音乐</em><sub class="cor"></sub></a></span></li>
+          <li><span><a href="Leaderboard.html"><em>我的音乐</em></a></span></li>
+          <li><span><a href="Leaderboard.html"><em>排行榜</em></a></span></li>
+          <li><span><a href="gedan.html"><em>歌单</em></a></span></li>
+          <li><span><a href="Leaderboard.html"><em>音乐人</em></a></span></li>
+        </ul>
+        <div class="m-tophead">
+          <a href="#" class="link denglu">登录</a>
+        </div>
+        <div class="m-srch">
+          <div class="srchbg">
+            <span class="parent">
+              <input type="text" name="" id="" class="txt" value="音乐/视频/电台/用户">
+              <label for="" class="ph"></label>
+            </span>
+          </div>
+        </div>
+
+      </div>
+      <div class="m-subnav">
+        <div class="wrap2 f-pr">
+          <ul class="nav">
+            <!-- 这里点击谁 谁的<z-slt>类名改为空 -->
+            <li><a href="#" class="z-slt"><em>推荐</em></a></li>
+            <li><a href="#" class="z-slt"><em>排行榜</em></a></li>
+            <li><a href="#" class="z-slt"><em>歌单</em></a></li>
+            <li><a href="#" class="z-slt"><em>主播电台</em></a></li>
+            <li><a href="#" class="z-slt"><em>歌手</em></a></li>
+            <li><a href="#" class="z-slt"><em>新碟上架</em></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="login">
+    <div class="login-hd">
+      登录
+      <div class="zcil">
+
+      </div>
+    </div>
+    <div class="login-bd f-cb">
+      <div class="login-bd-zuo">
+        <img src="img/登录左.png" alt="">
+      </div>
+      <div class="login-bd-you">
+        <h2>扫码登录</h2>
+        <img src="img/二维码.png" alt="">
+        <p>使用网易云音乐APP扫码登录</p>
+      </div>
+    </div>
+    <div class="login-bd-ft">
+      <button class="login-bd-ft-btn">选择其他登录方式</button>
+    </div>
+  </div>
+  <!-- 下面为主体 -->
+  <div class="tab-con f-cb">
+    <!-- 这里是第一个tab栏 -->
+    <div class="item-hd" style="display: block;">
+      <div class="box w">
+        <!-- 左侧按钮 -->
+        <a href="javascript:;" class="j_zuo"></a>
+        <!-- 右侧按钮 -->
+        <a href="javascript:;" class="j_you"></a>
+        <!-- 核心的滚动区域 -->
+        <ul class="u1">
+          <li><a href="#"><img src="img/109951166193665662.jpg" alt=""></a></li>
+          <li><a href="#"><img src="img/109951166195404610 (1).jpg" alt=""></a></li>
+          <li><a href="#"><img src="img/109951166195368190.jpg" alt=""></a></li>
+          <li><a href="#"><img src="img/109951166196853664.jpg" alt=""></a></li>
+        </ul>
+        <div class="dots">
+
+        </div>
+      </div>
+      <!-- 这里为主体区域 -->
+      <div class="g-bd1 f-cb">
+        <div class="g-mn1">
+          <div class="g-mn1c">
+            <div class="g-wrap3">
+              <div class="n-rcmd">
+                <div class="v-hd2">
+                  <a href="javascript:;" class="tit f-ff2 f-tdn" id="recommend_title">热门推荐</a>
+                  <div class="tab">
+                    <a href="javascript:;" class="s-fc3">华语</a>
+                    <span class="line">|</span>
+                    <a href="javascript:;" class="s-fc3">流行</a>
+                    <span class="line">|</span>
+                    <a href="javascript:;" class="s-fc3">摇滚</a>
+                    <span class="line">|</span>
+                    <a href="javascript:;" class="s-fc3">民谣</a>
+                    <span class="line">|</span>
+                    <a href="javascript:;" class="s-fc3">电子</a>
+                  </div>
+                  <span class="more"><a href="javascript:;" class="s-fc3">更多</a><i
+                      class="cor s-bg s-bg-6">&nbsp;</i></span>
+                </div>
+                <ul class="m-cvrlst f-cb">
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951164620909781.jpg">
+                      <a title="“好听的歌没有完整版，就像我们没有结果”" href="Leaderboard.html" target="_blank" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">116万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="“好听的歌没有完整版，就像我们没有结果”" class="tit s-fc0" href="Leaderboard.html">
+                        “好听的歌没有完整版，就像我们没有结果”
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951164726735349.jpg">
+                      <a title="带上耳机，出车祸别找我" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">281万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="带上耳机，出车祸别找我" class="tit s-fc0" href="Leaderboard.html">
+                        带上耳机，出车祸别找我
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951165226049642.jpg">
+                      <a title="时光代理人 OP&amp;ED&amp;插曲&amp;同人曲 音乐集" href="Leaderboard.html" class="msk"></a>
+                      <div class=" bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">26万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="时光代理人 OP&amp;ED&amp;插曲&amp;同人曲 音乐集" class="tit s-fc0" href="Leaderboard.html">
+                        时光代理人 OP&amp;ED&amp;插曲&amp;同人曲 音乐集
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951165461787199.jpg">
+                      <a title="世上有时光机吗？本集最后有彩蛋！" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">144</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="世上有时光机吗？本集最后有彩蛋！" class="tit s-fc0" href="Leaderboard.html">
+                        <i class="u-icn u-icn-53"></i>
+                        世上有时光机吗？本集最后有彩蛋！
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951165641456117.jpg">
+                      <a title="我字字皆你，你却句句非我" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">213万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="我字字皆你，你却句句非我" class="tit s-fc0" href="Leaderboard.html">
+                        我字字皆你，你却句句非我
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951165866674710.jpg">
+                      <a title="EP.9 朝不受打扰的生活更近一点" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">263</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="EP.9 朝不受打扰的生活更近一点" class="tit s-fc0" href="Leaderboard.html">
+                        <i class="u-icn u-icn-53"></i>
+                        EP.9 朝不受打扰的生活更近一点
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951165999166544.jpg">
+                      <a title="百万评论热歌全集丨时实更新中" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">107万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="百万评论热歌全集丨时实更新中" class="tit s-fc0" href="Leaderboard.html">
+                        百万评论热歌全集丨时实更新中
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="u-cover u-cover-1">
+                      <img src="img/首页所用图片/109951166067987382.jpg">
+                      <a title="从此天光大亮，你是我全部的渴望与幻想。" href="Leaderboard.html" class="msk"></a>
+                      <div class="bottom">
+                        <a class="icon-play f-fr" title="播放" href="javascript:;"></a>
+                        <span class="icon-headset"></span>
+                        <span class="nb">25万</span>
+                      </div>
+                    </div>
+                    <p class="dec">
+                      <a title="从此天光大亮，你是我全部的渴望与幻想。" class="tit s-fc0" href="Leaderboard.html">
+                        <i class="u-icn u-icn-53"></i>
+                        从此天光大亮，你是我全部的渴望与幻想。
+                      </a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="n-rcmd" id="personalRec"></div>
+              <div id="j-music-ad" class="n-clmnad">
+                <div class="j-flag f-hide" id="auto-id-3Cdced2yhkoxbVpo"></div>
+              </div>
+              <div class="n-new">
+                <div class="v-hd2">
+                  <a href="Leaderboard.html" class="tit f-ff2 f-tdn">新碟上架</a>
+                  <span class="more"><a href="Leaderboard.html" class="s-fc3">更多</a><i
+                      class="cor s-bg s-bg-6">&nbsp;</i></span>
+                </div>
+                <div class="n-disk">
+                  <div class="inner" id="album-roller">
+                    <a hidefocus="true" href="javascript:;" class="click-flag pre s-bg s-bg-7 f-tdn">&nbsp;</a>
+                    <div class="roll f-pr">
+                      <ul class="f-cb roller-flag ul1" style="left:0px;">
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166074865960.jpg">
+                            <a title="TWILIGHT" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="TWILIGHT" href="Leaderboard.html" class="s-fc0 tit">TWILIGHT</a>
+                          </p>
+                          <p class="tit f-thide" title="RADWIMPS">
+                            <a class="s-fc3" href="Leaderboard.html">RADWIMPS</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166093471468.jpg">
+                            <a title="变废为宝" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="变废为宝" href="Leaderboard.html" class="s-fc0 tit">变废为宝</a></p>
+                          <p class="tit f-thide" title="薛之谦">
+                            <a class="s-fc3" href="Leaderboard.html">薛之谦</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166110530245.jpg">
+                            <a title="生活在别处的你 Another me" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="生活在别处的你 Another me" href="Leaderboard.html"
+                              class="s-fc0 tit">生活在别处的你 Another me</a></p>
+                          <p class="tit f-thide" title="毛不易">
+                            <a class="s-fc3" href="Leaderboard.html">毛不易</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166111591316.jpg">
+                            <a title="纵横四海" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="纵横四海" href="Leaderboard.html" class="s-fc0 tit">纵横四海</a></p>
+                          <p class="tit f-thide" title="李荣浩">
+                            <a class="s-fc3" href="Leaderboard.html">李荣浩</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166112215487.jpg">
+                            <a title="Windy" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="Windy" href="Leaderboard.html" class="s-fc0 tit">Windy</a></p>
+                          <p class="tit f-thide" title="田小娟">
+                            <a class="s-fc3" href="Leaderboard.html">田小娟</a>
+                          </p>
+                        </li>
+                      </ul>
+                      <ul class="f-cb roller-flag ul2" style="left:645px;">
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166150205963.jpg">
+                            <a title="终点起点" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="终点起点" href="Leaderboard.html" class="s-fc0 tit">终点起点</a></p>
+                          <p class="tit f-thide" title="鱼丁糸">
+                            <a class="s-fc3" href="Leaderboard.html">鱼丁糸</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166162802327.jpg">
+                            <a title="Planet Her" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="Planet Her" href="Leaderboard.html" class="s-fc0 tit">Planet
+                              Her</a></p>
+                          <p class="tit f-thide" title="Doja Cat">
+                            <a class="s-fc3" href="Leaderboard.html">Doja Cat</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166171044898.jpg">
+                            <a title="HAVE A NICE DAY" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr"></a>
+                          </div>
+                          <p class="f-thide"><a title="HAVE A NICE DAY" href="Leaderboard.html" class="s-fc0 tit">HAVE
+                              A
+                              NICE DAY</a></p>
+                          <p class="tit f-thide" title="魏如萱">
+                            <a class="s-fc3" href="Leaderboard.html">魏如萱</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166183527742.jpg">
+                            <a title="White Stallion" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="White Stallion" href="Leaderboard.html" class="s-fc0 tit">White
+                              Stallion</a></p>
+                          <p class="tit f-thide" title="Kaz">
+                            <a class="s-fc3" href="Leaderboard.html">Kaz</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img" src="img/新碟上架/109951166197509617.jpg">
+                            <a title="JORDI (Deluxe)" href="Leaderboard.html" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放"></a>
+                          </div>
+                          <p class="f-thide"><a title="JORDI (Deluxe)" href="Leaderboard.html" class="s-fc0 tit">JORDI
+                              (Deluxe)</a></p>
+                          <p class="tit f-thide" title="Maroon 5">
+                            <a class="s-fc3" href="Leaderboard.html">Maroon 5</a>
+                          </p>
+                        </li>
+                      </ul>
+                      <ul class="f-cb roller-flag ul3" style="left:1290px;">
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p3.music.126.net/lIXp8u3Y3MFx9be_z6440g==/109951166197509617.jpg?param=100y100">
+                            <a title="TWILIGHT" href="/album?id=130651576" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="130651576" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="TWILIGHT" href="/album?id=130651576"
+                              class="s-fc0 tit">TWILIGHT</a>
+                          </p>
+                          <p class="tit f-thide" title="RADWIMPS">
+                            <a class="s-fc3" href="/artist?id=21132">RADWIMPS</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/AJmUHo9JgzwZyOCSiZiHlQ==/109951166183527742.jpg?param=100y100">
+                            <a title="变废为宝" href="/album?id=130455751" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="130455751" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="变废为宝" href="/album?id=130455751" class="s-fc0 tit">变废为宝</a></p>
+                          <p class="tit f-thide" title="薛之谦">
+                            <a class="s-fc3" href="/artist?id=5781">薛之谦</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/Nl4mFBPeN4Lqtqn3KOAvXQ==/109951166171044898.jpg?param=100y100">
+                            <a title="生活在别处的你 Another me" href="/album?id=130234023" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="130234023" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="生活在别处的你 Another me" href="/album?id=130234023"
+                              class="s-fc0 tit">生活在别处的你 Another me</a></p>
+                          <p class="tit f-thide" title="毛不易">
+                            <a class="s-fc3" href="/artist?id=12138269">毛不易</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p3.music.126.net/48PncRwL4_BEmpRd_ZohAg==/109951166162802327.jpg?param=100y100">
+                            <a title="纵横四海" href="/album?id=130148423" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="130148423" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="纵横四海" href="/album?id=130148423" class="s-fc0 tit">纵横四海</a></p>
+                          <p class="tit f-thide" title="李荣浩">
+                            <a class="s-fc3" href="/artist?id=4292">李荣浩</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/b7kIdFmREERIINwc_5Gu9Q==/109951166150205963.jpg?param=100y100">
+                            <a title="Windy" href="/album?id=129952587" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="129952587" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="Windy" href="/album?id=129952587" class="s-fc0 tit">Windy</a></p>
+                          <p class="tit f-thide" title="田小娟">
+                            <a class="s-fc3" href="/artist?id=12073588">田小娟</a>
+                          </p>
+                        </li>
+                      </ul>
+                      <ul class="f-cb roller-flag ul4" style="left:1935px;">
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/DknqlrU1SvDgkDyEhtFsOg==/109951166112215487.jpg?param=100y100">
+                            <a title="终点起点" href="/album?id=129371403" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="129371403" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="终点起点" href="/album?id=129371403" class="s-fc0 tit">终点起点</a></p>
+                          <p class="tit f-thide" title="鱼丁糸">
+                            <a class="s-fc3" href="/artist?id=36301312">鱼丁糸</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p3.music.126.net/br3NmXeUWMnFFDw_iULdmw==/109951166110530245.jpg?param=100y100">
+                            <a title="Planet Her" href="/album?id=129338347" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="129338347" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="Planet Her" href="/album?id=129338347" class="s-fc0 tit">Planet
+                              Her</a></p>
+                          <p class="tit f-thide" title="Doja Cat">
+                            <a class="s-fc3" href="/artist?id=911131">Doja Cat</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/RwqmaJNBVr2PAccGWfMEVw==/109951166111591316.jpg?param=100y100">
+                            <a title="HAVE A NICE DAY" href="/album?id=129362126" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="129362126" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="HAVE A NICE DAY" href="/album?id=129362126"
+                              class="s-fc0 tit">HAVE
+                              A
+                              NICE DAY</a></p>
+                          <p class="tit f-thide" title="魏如萱">
+                            <a class="s-fc3" href="/artist?id=9609">魏如萱</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p4.music.126.net/5soCz9s1VEpv7bZw85Iusg==/109951166093471468.jpg?param=100y100">
+                            <a title="White Stallion" href="/album?id=129132146" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="129132146" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="White Stallion" href="/album?id=129132146"
+                              class="s-fc0 tit">White
+                              Stallion</a></p>
+                          <p class="tit f-thide" title="Kaz">
+                            <a class="s-fc3" href="/artist?id=31019783">Kaz</a>
+                          </p>
+                        </li>
+                        <li>
+                          <div class="u-cover u-cover-alb1">
+                            <img class="j-img"
+                              src="http://p3.music.126.net/I-gC5w8ECkgwPojf4YybeQ==/109951166074865960.jpg?param=100y100">
+                            <a title="JORDI (Deluxe)" href="/album?id=128749721" class="msk"></a>
+                            <a href="javascript:;" class="icon-play f-alpha f-fr" title="播放" data-res-type="19"
+                              data-res-id="128749721" data-res-action="play"></a>
+                          </div>
+                          <p class="f-thide"><a title="JORDI (Deluxe)" href="/album?id=128749721"
+                              class="s-fc0 tit">JORDI
+                              (Deluxe)</a></p>
+                          <p class="tit f-thide" title="Maroon 5">
+                            <a class="s-fc3" href="/artist?id=96266">Maroon 5</a>
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <a hidefocus="true" href="javascript:;" class="click-flag nxt s-bg s-bg-8 f-tdn">&nbsp;</a>
+                  </div>
+                </div>
+              </div>
+              <div class="n-bill">
+                <div class="v-hd2">
+                  <a href="Leaderboard.html" class="tit f-ff2 f-tdn">榜单</a>
+                  <span class="more"><a href="Leaderboard.html" class="s-fc3">更多</a><i
+                      class="cor s-bg s-bg-6">&nbsp;</i></span>
+                </div>
+                <div class="n-bilst" id="top-flag">
+                  <dl class="blk ">
+                    <dt class="top">
+                      <div class="cver u-cover u-cover-4">
+                        <img class="j-img" src="img/榜单推荐/biao.jpg">
+                        <a href="Leaderboard.html" class="msk" title="飙升榜" target="_blank"></a>
+                      </div>
+                      <div class="tit">
+                        <a href="Leaderboard.html" title="飙升榜">
+                          <h3 class="f-fs1 f-thide">飙升榜</h3>
+                        </a>
+                        <div class="btn">
+                          <a href="javascript:;" class="s-bg s-bg-9 f-tdn" hidefocus="true" title="播放">播放</a>
+                          <a href="javascript:;" hidefocus="true" class="s-bg s-bg-10 f-tdn subscribe-flag "
+                            data-plid="19723756" title="收藏">收藏</a>
+                        </div>
+                      </div>
+                    </dt>
+                    <dd>
+                      <ol>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">1</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="写你成歌">素颜</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">2</span>
+                          <a href="music2.html" class="nm s-fc0 f-thide" title="Stoned at the Nail Salon">如果当时
+                          </a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">3</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="窗">窗</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">4</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="还是会想你">还是会想你</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">5</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="星河万里">星河万里</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">6</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="SAVE ME">SAVE ME</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">7</span>
+                          <a href="music2.html" class="nm s-fc0 f-thide" title="Stitches">Stitches</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">8</span>
+                          <a href="music3.html" class="nm s-fc0 f-thide" title="Don't Go">Don't Go</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">9</span>
+                          <a href="music4.html" class="nm s-fc0 f-thide" title="好事要发生">好事要发生</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">10</span>
+                          <a href="music5.html" class="nm s-fc0 f-thide" title="New Normal">New Normal</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                      </ol>
+                      <div class="more"><a href="Leaderboard.html" class="s-fc0">查看全部&gt;</a></div>
+                    </dd>
+                  </dl>
+                  <dl class="blk ">
+                    <dt class="top">
+                      <div class="cver u-cover u-cover-4">
+                        <img class="j-img" src="img/榜单推荐/xin.jpg">
+                        <a href="Leaderboard.html" class="msk" title="新歌榜"></a>
+                      </div>
+                      <div class="tit">
+                        <a href="Leaderboard.html" title="新歌榜">
+                          <h3 class="f-fs1 f-thide">新歌榜</h3>
+                        </a>
+                        <div class="btn">
+                          <a href="javascript:;" class="s-bg s-bg-9 f-tdn" hidefocus="true" title="播放">播放</a>
+                          <a href="javascript:;" hidefocus="true" class="s-bg s-bg-10 f-tdn subscribe-flag "
+                            title="收藏">收藏</a>
+                        </div>
+                      </div>
+                    </dt>
+                    <dd>
+                      <ol>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">1</span>
+                          <a href="music.html" class="nm s-fc0 f-thide" title="变废为宝">变废为宝</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">2</span>
+                          <a href="music2.html" class="nm s-fc0 f-thide" title="生活在别处的你 Another me">生活在别处的你
+                            Another
+                            me</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">3</span>
+                          <a href="music3.html" class="nm s-fc0 f-thide" title="Stay">Stay</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">4</span>
+                          <a href="music4.html" class="nm s-fc0 f-thide" title="纵横四海">纵横四海</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">5</span>
+                          <a href="music5.html" class="nm s-fc0 f-thide" title="照亮黑夜的太阳">照亮黑夜的太阳</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">6</span>
+                          <a href="music6.html" class="nm s-fc0 f-thide" title="我们俩">我们俩</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">7</span>
+                          <a href="music7.html" class="nm s-fc0 f-thide" title="还是劈开">还是劈开</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">8</span>
+                          <a href="music8.html" class="nm s-fc0 f-thide" title="Moon Halo">Moon Halo</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">9</span>
+                          <a href="music9.html" class="nm s-fc0 f-thide"
+                            title="California (feat. 王嘉尔 &amp; Warren Hue) [Remix]">California (feat. 王嘉尔 &amp; Warren
+                            Hue)
+                            [Remix]</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">10</span>
+                          <a href="music10.html" class="nm s-fc0 f-thide" title="骁">骁</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                      </ol>
+                      <div class="more"><a href="Leaderboard.html" class="s-fc0">查看全部&gt;</a></div>
+                    </dd>
+                  </dl>
+                  <dl class="blk blk-1">
+                    <dt class="top">
+                      <div class="cver u-cover u-cover-4">
+                        <img class="j-img" src="img/榜单推荐/yuan.jpg">
+                        <a href="Leaderboard.html" class="msk" title="原创榜"></a>
+                      </div>
+                      <div class="tit">
+                        <a href="Leaderboard.html" title="原创榜">
+                          <h3 class="f-fs1 f-thide">原创榜</h3>
+                        </a>
+                        <div class="btn">
+                          <a href="javascript:;" class="s-bg s-bg-9 f-tdn" hidefocus="true" title="播放">播放</a>
+                          <a href="javascript:;" hidefocus="true" class="s-bg s-bg-10 f-tdn subscribe-flag "
+                            title="收藏">收藏</a>
+                        </div>
+                      </div>
+                    </dt>
+                    <dd>
+                      <ol>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">1</span>
+                          <a href="music11.html" class="nm s-fc0 f-thide" title="毕业留言">毕业留言</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">2</span>
+                          <a href="music12.html" class="nm s-fc0 f-thide" title="不如放过">不如放过</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no no-top">3</span>
+                          <a href="music13.html" class="nm s-fc0 f-thide" title="轮到你 (ft. Jony J)">轮到你 (ft. Jony
+                            J)</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">4</span>
+                          <a href="music14.html" class="nm s-fc0 f-thide" title="SAUCERBOI">SAUCERBOI</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">5</span>
+                          <a href="music15.html" class="nm s-fc0 f-thide" title="Birth 起点">Birth 起点</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">6</span>
+                          <a href="music16.html" class="nm s-fc0 f-thide" title="逃避型社交">逃避型社交</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">7</span>
+                          <a href="music17.html" class="nm s-fc0 f-thide" title="爱分先后吗">爱分先后吗</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">8</span>
+                          <a href="music18.html" class="nm s-fc0 f-thide" title="拿捏">拿捏</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">9</span>
+                          <a href="music19.html" class="nm s-fc0 f-thide" title="你呀 我呀">你呀 我呀</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                        <li onmouseover="this.className='z-hvr'" onmouseout="this.className=''">
+                          <span class="no">10</span>
+                          <a href="music20.html" class="nm s-fc0 f-thide" title="一天都不想呆了！">一天都不想呆了！</a>
+                          <div class="oper">
+                            <a href="#" class="s-bg s-bg-11" title="播放" hidefocus="true"></a>
+                            <a href="#" class="u-icn u-icn-81" title="添加到播放列表" hidefocus="true"></a>
+                            <a href="#" class="s-bg s-bg-12" title="收藏" hidefocus="true"></a>
+                          </div>
+                        </li>
+                      </ol>
+                      <div class="more"><a href="Leaderboard.html" class="s-fc0">查看全部&gt;</a></div>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-sd1 f-cb">
+          <div class="n-user-profile">
+            <div class="n-myinfo n-myinfo-1 s-bg s-bg-1">
+              <p class="note s-fc3">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p><a id="index-enter-default" href="#"
+                onclick="top.login();return false;" class="btn s-bg s-bg-2 f-tdn" tabindex="1">用户登录</a>
+            </div>
+          </div>
+          <div class="n-singer">
+            <h3 class="v-hd3">
+              <span class="f-fl">入驻歌手</span>
+              <a href="Leaderboard.html" class="more s-fc3">查看全部 &gt;</a>
+            </h3>
+            <ul class="n-enter f-cb" id="singer-list">
+              <li>
+                <a href="Leaderboard.html" class="itm f-tdn">
+                  <div class="head"><img class="j-img" src="img/入驻歌手/109951165588539704.jpg"></div>
+                  <div class="ifo">
+                    <h4><span class="nm f-fs1 f-ib f-thide">张惠妹aMEI</span></h4>
+                    <p class="f-thide s-fc3">台湾歌手张惠妹</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="itm f-tdn">
+                  <div class="head"><img class="j-img" src="img/入驻歌手/109951166047225823.jpg"></div>
+                  <div class="ifo">
+                    <h4><span class="nm f-fs1 f-ib f-thide">Fine乐团</span></h4>
+                    <p class="f-thide s-fc3">独立音乐人</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="itm f-tdn">
+                  <div class="head"><img class="j-img" src="img/入驻歌手/109951162916034289.jpg"></div>
+                  <div class="ifo">
+                    <h4><span class="nm f-fs1 f-ib f-thide">萬曉利</span></h4>
+                    <p class="f-thide s-fc3">民谣歌手、中国现代民谣的代表人物之一</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="itm f-tdn">
+                  <div class="head"><img class="j-img" src="img/入驻歌手/18806046882229308.jpg"></div>
+                  <div class="ifo">
+                    <h4><span class="nm f-fs1 f-ib f-thide">音乐人赵雷</span></h4>
+                    <p class="f-thide s-fc3">民谣歌手</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="itm f-tdn">
+                  <div class="head"><img class="j-img" src="img/入驻歌手/3438172872737957.jpg"></div>
+                  <div class="ifo">
+                    <h4><span class="nm f-fs1 f-ib f-thide">王三溥</span></h4>
+                    <p class="f-thide s-fc3">音乐人</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div><a target="_blank" href="Leaderboard.html" hidefocus="true"
+                class="u-btn2 u-btn2-1"><i>申请成为网易音乐人</i></a></div>
+          </div>
+          <div class="n-dj n-dj-1">
+            <h3 class="v-hd3">热门主播</h3>
+            <ul class="n-hotdj f-cb" id="hotdj-list">
+              <li>
+                <a href="Leaderboard.html" class="cver"><img class="j-img" src="img/热门主播/1407374893913311 (1).jpg"></a>
+                <div class="info">
+                  <p><a href="Leaderboard.html" class="nm-icn f-thide s-fc0">陈立</a> </p>
+                  <p class="f-thide s-fc3">心理学家、美食家陈立教授</p>
+                </div>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="cver"><img class="j-img" src="img/热门主播/109951164843970584.jpg"></a>
+                <div class="info">
+                  <p><a href="Leaderboard.html" class="nm-icn f-thide s-fc0">刘维-Julius</a> </p>
+                  <p class="f-thide s-fc3">歌手、播客节目《维维道来》主理人</p>
+                </div>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="cver"><img class="j-img" src="img/热门主播/109951166147314841.jpg"></a>
+                <div class="info">
+                  <p><a href="Leaderboard.html" class="nm-icn f-thide s-fc0">莫非定律MoreFeel</a> </p>
+                  <p class="f-thide s-fc3">男女双人全创作独立乐团</p>
+                </div>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="cver"><img class="j-img" src="img/热门主播/109951165825466770.jpg"></a>
+                <div class="info">
+                  <p><a href="Leaderboard.html" class="nm-icn f-thide s-fc0">碎嘴许美达</a> </p>
+                  <p class="f-thide s-fc3">脱口秀网络红人</p>
+                </div>
+              </li>
+              <li>
+                <a href="Leaderboard.html" class="cver"><img class="j-img" src="img/热门主播/109951163676573083.jpg"></a>
+                <div class="info">
+                  <p><a href="Leaderboard.html" class="nm-icn f-thide s-fc0">银临Rachel</a> </p>
+                  <p class="f-thide s-fc3">古风音乐人</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 这里是第二个tab栏 -->
+    <div class="item-hd" style="display: none;">
+      <div class="g-bd3 g-bd3-1">
+        <div class=" g-sd3 g-sd3-1">
+          <div class="n-minelst n-minelst-2">
+            <h2 class="f-ff1">云音乐特色榜</h2>
+            <ul class="f-cb">
+              <li data-res-id="19723756" data-res-action="href" class="mine z-selected">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/01.jpg" alt="飙升榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">飙升榜</a></p>
+                  <p class="s-fc4">刚刚更新</p>
+                </div>
+              </li>
+              <li data-res-id="3779629" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/02.jpg" alt="新歌榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">新歌榜</a></p>
+                  <p class="s-fc4">刚刚更新</p>
+                </div>
+              </li>
+              <li data-res-id="2884035" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/03.jpg" alt="原创榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">原创榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="3778678" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/04.jpg" alt="热歌榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">热歌榜</a></p>
+                  <p class="s-fc4">刚刚更新</p>
+                </div>
+              </li>
+            </ul>
+            <h2 class="scd f-ff1">全球媒体榜</h2>
+            <ul class="f-cb">
+              <li data-res-id="5453912201" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/05.jpg" alt="黑胶VIP爱听榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">黑胶VIP爱听榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="991319590" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/06.jpg" alt="云音乐说唱榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐说唱榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="71384707" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/07.jpg" alt="云音乐古典榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐古典榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="1978921795" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/08.jpg" alt="云音乐电音榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐电音榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="71385702" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/09.jpg" alt="云音乐ACG榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐ACG榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="745956260" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/10.jpg" alt="云音乐韩语榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐韩语榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="10520166" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/11.jpg" alt="云音乐国电榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐国电榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="180106" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/12.jpg" alt="UK排行榜周榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">UK排行榜周榜</a></p>
+                  <p class="s-fc4">每周一更新</p>
+                </div>
+              </li>
+              <li data-res-id="60198" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/13.jpg" alt="美国Billboard榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">美国Billboard榜</a></p>
+                  <p class="s-fc4">每周三更新</p>
+                </div>
+              </li>
+              <li data-res-id="3812895" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/14.jpg" alt="Beatport全球电子舞曲榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">Beatport全球电子舞曲榜</a></p>
+                  <p class="s-fc4">每周三更新</p>
+                </div>
+              </li>
+              <li data-res-id="21845217" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/15.jpg" alt="KTV唛榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">KTV唛榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="60131" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/16.jpg" alt="日本Oricon榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">日本Oricon榜</a></p>
+                  <p class="s-fc4">每周三更新</p>
+                </div>
+              </li>
+              <li data-res-id="2809513713" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/17.jpg" alt="云音乐欧美热歌榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐欧美热歌榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="2809577409" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/18.jpg" alt="云音乐欧美新歌榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐欧美新歌榜</a></p>
+                  <p class="s-fc4">更新41首</p>
+                </div>
+              </li>
+              <li data-res-id="27135204" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/19.jpg" alt="法国 NRJ Vos Hits 周榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">法国 NRJ Vos Hits 周榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="3001835560" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/20.jpg" alt="云音乐ACG动画榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐ACG动画榜</a></p>
+                  <p class="s-fc4">每天更新</p>
+                </div>
+              </li>
+              <li data-res-id="3001795926" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/21.jpg" alt="云音乐ACG游戏榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐ACG游戏榜</a></p>
+                  <p class="s-fc4">更新82首</p>
+                </div>
+              </li>
+              <li data-res-id="3001890046" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/22.jpg" alt="云音乐ACG VOCALOID榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐ACG VOCALOID榜</a></p>
+                  <p class="s-fc4">更新80首</p>
+                </div>
+              </li>
+              <li data-res-id="3112516681" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/23.jpg" alt="中国新乡村音乐排行榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">中国新乡村音乐排行榜</a></p>
+                  <p class="s-fc4">双周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="5059644681" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/24.jpg" alt="云音乐日语榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐日语榜</a></p>
+                  <p class="s-fc4">每周二更新</p>
+                </div>
+              </li>
+              <li data-res-id="5059633707" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/25.jpg" alt="云音乐摇滚榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐摇滚榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="5059642708" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/26.jpg" alt="云音乐古风榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐古风榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="5338990334" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/27.jpg" alt="潜力爆款榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">潜力爆款榜</a></p>
+                  <p class="s-fc4">每周一更新</p>
+                </div>
+              </li>
+              <li data-res-id="5059661515" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/28.jpg" alt="云音乐民谣榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">云音乐民谣榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="6688069460" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/29.jpg" alt="听歌识曲榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">听歌识曲榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="6723173524" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/30.jpg" alt="网络热歌榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">网络热歌榜</a></p>
+                  <p class="s-fc4">每周五更新</p>
+                </div>
+              </li>
+              <li data-res-id="6732051320" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/31.jpg" alt="俄语榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="Leaderboard.html" class="s-fc0">俄语榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+              <li data-res-id="6732014811" data-res-action="href" class="mine ">
+                <div class="item f-cb">
+                  <div class="left">
+                    <a class="avatar" href="Leaderboard.html">
+                      <img src="img/榜单推荐/32.jpg" alt="越南语榜">
+                      <span class="msk"></span>
+                    </a>
+                  </div>
+                  <p class="name"><a href="/discover/toplist?id=6732014811" class="s-fc0">越南语榜</a></p>
+                  <p class="s-fc4">每周四更新</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="g-mn3">
+          <!-- 右侧头部 -->
+          <div class="g-wrap">
+            <div class="m-info m-info-rank f-cb">
+              <div class="cover u-cover u-cover-rank"><img src="img/榜单推荐/biao.jpg"><span class="msk"></span></div>
+              <div class="cnt">
+                <div class="cntc m-info">
+                  <div class="hd f-cb">
+                    <!-- 这里是头部区域 -->
+                    <h2 class="f-ff2">飙升榜</h2>
+                  </div>
+                  <div class="user f-cb">
+                    <i class="u-icn u-icn-57"></i><span class="sep s-fc3">最近更新：07月24日</span> <span
+                      class="s-fc4">（刚刚更新）</span>
+                  </div>
+                  <div class="btns f-cb">
+                    <a href="javascript:;" class="u-btn2 u-btn2-2 u-btni-addply f-fl" hidefocus="true" title="播放"><i><em
+                          class="ply"></em>播放</i></a>
+                    <a href="javascript:;" class="u-btni u-btni-add" hidefocus="true" title="添加到播放列表"></a>
+                    <a id="toplist-fav" class="u-btni u-btni-fav" href="javascript:;"><i>(3798646)</i></a>
+                    <a id="toplist-share" class="u-btni u-btni-share" href="javascript:;"><i>(10732)</i></a>
+                    <a class="u-btni u-btni-dl" href="javascript:;"><i>下载</i></a>
+                    <a href="javascript:;" class="u-btni u-btni-cmmt j-cmt"><i>(<span
+                          id="comment-count">206864</span>)</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="g-wrap12">
+            <div class="u-title u-title-1 f-cb">
+              <h3><span class="f-ff2">歌曲列表</span></h3><span class="sub s-fc3"><span>100</span>首歌</span>
+              <div class="more s-fc3">播放：<strong class="s-fc6" id="play-count">4420461568</strong>次</div>
+            </div>
+            <div id="song-list-pre-cache" data-key="song_toplist-19723756" data-simple="0" data-pvnamed="0">
+              <div oncopy="return false;" oncut="return false;" ondragstart="return false;"
+                id="auto-id-4FfHuMJRZg6Rb853">
+                <div class="j-flag" id="auto-id-N9hbPeRvK6UUuCR0">
+                  <table class="m-table m-table-rank">
+                    <thead>
+                      <tr>
+                        <th class="first w1"></th>
+                        <th>
+                          <div class="wp">标题</div>
+                        </th>
+                        <th class="w2-1">
+                          <div class="wp">时长</div>
+                        </th>
+                        <th class="w3-1">
+                          <div class="wp">歌手</div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">1</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="rank">
+                          <div class="f-cb">
+                            <div class="tt"><a href="music.html" target="_blank"><img class="rpic"
+                                  src="img/109951164179134667.jpg"></a><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music.html"><b
+                                      title="Edamame&nbsp;(ft.&nbsp;Rich&nbsp;Brian)">素颜<div class="soil">Boy</div>
+                                      &nbsp;</b></a><span title="播放mv" class="mv">MV</span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:00</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music.html" hidefocus="true">许嵩<div class="soil">OAh
+                                </div></a>/<a class="" href="music.html" hidefocus="true">&nbsp;<div class="soil">
+                                </div>
+                                何曼婷</a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">2</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="rank">
+                          <div class="f-cb">
+                            <div class="tt"><a href="music2.html " target="_blank"><img class="rpic"
+                                  src="img/109951166118671647.jpg"></a><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music2.html"><b title="Coloratura">如果当时<div
+                                        class="soil">1w3</div></b></a><span title="播放mv" class="mv">MV</span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">5:16</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text" title="Coldplay"><span title="Coldplay"><a class="" href="music2.html"
+                                hidefocus="true">许嵩<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">3</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="rank">
+                          <div class="f-cb">
+                            <div class="tt"><a href="music3.html" target="_blank"><img class="rpic"
+                                  src="img/17981413160792921.jpg"></a><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music3.html"><b title="明月天涯">明月天涯<div
+                                        class="soil"></div></b></a><span title="明月天涯" class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:02</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text" title="五音"><span title="五音"><a class="" href="music3.html"
+                                hidefocus="true">五音<div class="soil"></div>Jw</a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">4</span>
+                            <div class="rk "><span class="ico u-icn u-icn-74 s-fc10">3</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music4.html" target="_blank"><b
+                                      title="有何不可">有何<div class="soil"></div>不可</b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:01</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="许嵩"><span title="许嵩"><a class="" href="music4.html"
+                                hidefocus="true">许嵩<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">5</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music5.html"><b>多余的解释&nbsp;<div class="soil">
+                                        2W65</div>
+                                      &nbsp;</b></a><span data-res-action="mv" title="播放mv" class="mv">MV</span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:37</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music5.html" hidefocus="true">许嵩
+                                <div class="soil"></div>
+                              </a><a class="" href="music5.html" hidefocus="true">
+                                <div class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">6</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music6.html"><b>认错<div class="soil"></div>
+                                    </b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:35</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music6.html" hidefocus="true">许嵩<div class="soil">
+                                </div></a><a class="" href="music6.html" hidefocus="true">
+                                <div class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">7</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music7.html"><b title="Seedless">清明雨上
+                                      <div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:39</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text" title="江语"><span title="江语"><a class="" href="music7.html"
+                                hidefocus="true">许嵩<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">8</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music8.html"><b>想象之中<div class="soil"></div>
+                                    </b></a><span class="mv">MV</span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:09</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music8.html" hidefocus="true">许嵩&nbsp;<div
+                                  class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">9</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music9.html"><b>微博控<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:42</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music9.html" hidefocus="true">许嵩<div class="soil">
+                                </div></a>/<a class="" href="music9.html" hidefocus="true">
+                                <div class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">10</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music10.html"><b>鼓楼<div class="soil"></div>
+                                    </b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:41</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music10.html" hidefocus="true">赵雷<div class="soil">
+                                </div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">11</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply "></span>
+                              <div class="ttc"><span class="txt"><a href="music11.html"><b>
+                                      <div class="soil"></div>南方姑娘
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">05:32</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music11.html" hidefocus="true">赵雷<div class="soil">
+                                </div></a><a class="" href="music11.html" hidefocus="true">
+                                <div class="soil">
+                                </div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">12</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music12.html"><b>成都<div class="soil">
+                                      </div></b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">05:32</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="Tinashe"><span title="Tinashe"><a class="" href="music12.html"
+                                hidefocus="true">赵雷<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">13</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music13.html"><b>我们的时光<div class="soil"></div>
+                                    </b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:30</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="RADWIMPS"><span title="RADWIMPS"><a class="" href="music13.html"
+                                hidefocus="true">赵雷<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">14</span>
+                            <div class="rk "><span class="ico u-icn u-icn-73 s-fc9">28</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music14.html"><b>
+                                      <div class="soil"></div>云烟小雨
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:00</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music14.html" hidefocus="true">房东的猫<div
+                                  class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">15</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span data-res-id="1835372614" data-res-type="18" data-res-action="play"
+                                class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music15.html"><b title="Guitar&nbsp;Type">我可以
+                                      <div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:31</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="小小的世界03"><span title="小小的世界03"><a class="" href="music15.html"
+                                hidefocus="true">房东的猫<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">16</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music16.html"><b
+                                      title="保留&nbsp;(“”歌手)">下一站，&nbsp;<div class="soil"></div>茶山刘</b></a></span>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:25</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music16.html" hidefocus="true">房东的猫<div
+                                  class="soil">
+                                </div></a><a class="" href="music16.html" hidefocus="true">
+                                <div class="soil">
+                                </div>
+                              </a></span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">17</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music17.html"><b
+                                      title="All&nbsp;My&nbsp;World">东京不太热&nbsp;<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:19</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="EMPTISO"><span title="EMPTISO"><a class="" href="music17.html"
+                                hidefocus="true">封茗囧菌<div class="soil"></div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">18</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music18.html"><b>万疆<div class="soil"></div>
+                                    </b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:54</span>
+                        </td>
+                        <td class="">
+                          <div class="text">
+                            <span>
+                              <a class="" href="music18.html" hidefocus="true">李玉刚
+                                <div class="soil">
+                                </div>
+                              </a>
+                            </span>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">19</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music19.html"><b
+                                      title="INDUSTRY&nbsp;BABY">牵丝戏<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:59</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text" title="Lil Nas X/Jack Harlow"><span title="Lil Nas X/Jack Harlow"><a
+                                class="" href="music19.html" hidefocus="true">银临&nbsp;<div class="soil"></div>
+                              </a>/<a class="" href="music19.html" hidefocus="true">Aki阿杰&nbsp;<div class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">20</span>
+                            <div class="rk "><span class="ico u-icn u-icn-74 s-fc10">15</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music20.html"><b>别错过<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:05</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><a class="" href="music20.html" hidefocus="true">程++&nbsp;/<div
+                                class="soil">
+                              </div>云泣</a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">21</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music21.html"><b title="Stay">棠梨煎雪<div
+                                        class="soil"></div></b></a><span class="mv"></span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:05</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music21.html" hidefocus="true">银临Rachel
+                                <div class="soil">
+                                </div>
+                              </a><a class="" href="music21.html" hidefocus="true">
+                                <div class="soil">
+                                </div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">22</span>
+                            <div class="rk "><span class="ico u-icn u-icn-73 s-fc9">77</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music22.html"><b>是风动<div class="soil">
+                                      </div></b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:48</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music22.html" hidefocus="true">银临<div class="soil">
+                                </div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">23</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music23.html"><b>倾尽天下<div class="soil">
+                                      </div></b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:25</span>
+                        </td>
+                        <td class="">
+                          <div class="text"><a class="" href="music23.html" hidefocus="true">河图<div class="soil"></div>
+                            </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">24</span>
+                            <div class="rk "><span class="ico u-icn u-icn-74 s-fc10">18</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music24.html"><b title="SAVE&nbsp;ME">凤凰劫
+                                      <div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:26</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music24.html" hidefocus="true">河图<div class="soil">
+                                </div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">25</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music25.html"><b
+                                      title="I&nbsp;Like&nbsp;That">泸沽寻梦<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">06:20</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><a class="" href="music25.html" hidefocus="true">银临<div class="soil">
+                              </div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">26</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music26.html"><b>&nbsp;腐草为萤<div class="soil">
+                                      </div></b></a><span class="mv">MV</span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:35</span>
+                        </td>
+                        <td class="">
+                          <div class="text" title="Interupt/Luna LePage"><span title="Interupt/Luna LePage"><a class=""
+                                href="music26.html" hidefocus="true">银临<div class="soil"></div></a><a class=""
+                                href="music26.html" hidefocus="true">
+                                <div class="soil"></div>
+                                &nbsp;
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">27</span>
+                            <div class="rk "><span class="ico u-icn u-icn-73 s-fc9">12</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music27.html"><b>流光记<div class="soil">
+                                      </div></b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:15</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music27.html" hidefocus="true">银临<div class="soil">
+                                </div></a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">28</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music28.html"><b>庐州月<div class="soil"></div>
+                                      &nbsp;</b></a><span class="s-fc8">
+                                    <div class="soil"></div>
+                                  </span><span class="mv"></span></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:24</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="/artist?id=1003026" hidefocus="true">许嵩<div
+                                  class="soil"></div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class="even ">
+                        <td>
+                          <div class="hd"><span class="num">29</span>
+                            <div class="rk "><span class="ico u-icn u-icn-74 s-fc10">26</span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music29.html"><b>知与君同
+                                      <div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">03:00</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><a class="" href="music29.html" hidefocus="true">河图<div class="soil"></div>
+                            </a></span></div>
+                        </td>
+                      </tr>
+                      <tr class=" ">
+                        <td>
+                          <div class="hd"><span class="num">30</span>
+                            <div class="rk "><span class="u-icn u-icn-75"></span></div>
+                          </div>
+                        </td>
+                        <td class="">
+                          <div class="f-cb">
+                            <div class="tt"><span class="ply ">&nbsp;</span>
+                              <div class="ttc"><span class="txt"><a href="music30.html"><b>城府<div class="soil"></div>
+                                    </b></a></span></div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class=" s-fc3"><span class="u-dur ">04:30</span>
+
+                        </td>
+                        <td class="">
+                          <div class="text"><span><a class="" href="music30.html" hidefocus="true">许嵩<div class="soil">
+                                </div>
+                              </a></span></div>
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+                <div class="j-flag"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 这里是第一个tab栏 -->
+
+    <!-- 这里是第一个tab栏 -->
+    <div class="item-hd" style="display: none;">
+
+    </div>
+    <!-- 这里是第一个tab栏 -->
+    <div class="item-hd" style="display: none;">
+      手机社区模块内容
+    </div>
+
+
+  </div>
+
+  <!-- 下面为网页底部 -->
+  <div class="g-ft">
+    <div class="m-ft">
+      <div class="m-ft">
+        <div class="wrap3 f-cb">
+          <div class="copy">
+            <p class="link s-fc3">
+              <a href="javascript:;" target="_blank" class="item s-fc4">服务条款</a>
+              <span class="line">|</span>
+              <a href="javascript:;" target="_blank" class="item s-fc4">隐私政策</a>
+              <span class="line">|</span>
+              <a href="javascript:;" target="_blank" class="item s-fc4">儿童隐私政策</a>
+              <span class="line">|</span>
+              <a href="javascript:;" target="_blank" class="item s-fc4">版权投诉指引</a>
+              <span class="line">|</span>
+              <a id="g_feedback" href="#" class="s-fc4" hidefocus="true">意见反馈</a>
+              <span class="line">|</span>
+              <a href="javascript:;" class="item s-fc4">广告合作</a>
+            </p>
+            <p class="right s-fc3">
+              <span class="sep span">网易公司版权所有©1997-2021</span>
+              <span class="span">杭州乐读科技有限公司运营：</span>
+              <a href="#" target="_blank" class="alink s-fc3">浙网文[2021] 1186-054号</a>
+
+            </p>
+            <p class="contact s-fc3">
+              <span class="sep span">违法和不良信息举报电话：0571-89853516</span>
+              <span class="span">举报邮箱：</span>
+              <a class="alink" href="javascript:;">ncm5990@163.com</a>
+            </p>
+            <p class="right s-fc3">
+              <a class="alink" href="#">ncm5990@163.com</a>
+              <a href="javascript:;" rel="noopener noreferrer" target="_blank" class="alink s-fc3 police-link">
+                <span class="police-logo"></span>
+                <span class="police-text">浙公网安备 33010902002564号</span>
+              </a>
+            </p>
+          </div>
+          <ul class="enter f-fr">
+            <li class="unit">
+              <a class="logo logonew logo-amped f-tid" href="javascript:;" target="_blank"></a>
+              <span class="tt tt-amped"></span>
+            </li>
+            <li class="unit">
+              <a class="logo logonew logo-auth f-tid" href="javascript:;" target="_blank"></a>
+              <span class="tt tt-auth"></span>
+            </li>
+            <li class="unit">
+              <a class="logo logonew logo-musician f-tid" href="javascript:;" target="_blank"></a>
+              <span class="tt tt-musician"></span>
+            </li>
+            <li class="unit">
+              <a class="logo logonew logo-reward f-tid" href="javascript:;" target="_blank"></a>
+              <span class="tt tt-reward"></span>
+            </li>
+            <li class="unit">
+              <a class="logo logonew logo-cash f-tid" href="javascript:;" target="_blank"></a>
+              <span class="tt tt-cash"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a title="回到顶部" class="m-back" href="javascript:;" id="g_backtop" hidefocus="true" style="display: block;">回到顶部</a>
+</body>
+
+</html>

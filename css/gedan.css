@@ -1,0 +1,494 @@
+/* 引入精灵图 */
+.s-fc3, a.s-fc3:hover {
+  color: #666;
+}
+.s-fc7, a.s-fc7:hover {
+  color: #0c73c2;
+}
+.s-fc4, a.s-fc4:hover {
+  color: #999;
+}
+.f-cb:after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.f-pr {
+  position: relative;
+  zoom: 1;
+}
+.f-ff2 {
+  font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.f-thide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.f-fs1 {
+  font-size: 14px;
+}
+.g-bd, .g-bd1, .g-bd2, .g-bd3, .g-bd4, .g-bd5, .g-bd6, .g-bd7 {
+  width: 980px;
+  min-height: 700px;
+
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+}
+.g-bd4 {
+  background: url(../img/wrap4.png) repeat-y center 0;
+}
+.u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
+  background: url(../img/coverall.png) no-repeat;
+ 
+}
+.u-icn, .u-title-1 .out .icon {
+  background: url(../img/icon.png) no-repeat 0 9999px;
+}
+.u-btn2, .u-btn2 i, .u-btn2 .icn, .u-btni, .u-btni i, .u-tag, .u-tag i, .u-btni-addply .ply {
+  background: url(../img/button2.png) no-repeat 0 9999px;
+}
+.m-sglist .opr a {
+  float: left;
+  width: 10px;
+  height: 11px;
+  background: url(../img/icon2.png) no-repeat -9999px -9999px;
+  opacity: 0.9;
+}
+.m-back, .m-lycifo .downapp, .m-plshare .btn, .m-pubcode .code, .m-multi .bg, .m-multi .bg a:hover {
+  background: url(../img/sprite.png) no-repeat 0 9999px;
+}
+
+.u-btn2, .u-btn2 i {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 31px;
+  line-height: 31px;
+  overflow: hidden;
+  *line-height: 32px;
+  vertical-align: top;
+  text-align: center;
+  cursor: pointer;
+}
+.g-bd4{
+  position: relative;
+}
+.g-mn4 {
+  float: left;
+  width: 100%;
+  margin-right: -270px;
+}
+.g-mn4c {
+  margin-right: 271px;
+}
+.g-wrap6 {
+  padding: 47px 30px 40px 39px;
+}
+.m-lycifo {
+  margin-top: -10px;
+}
+
+.m-lycifo .tit {
+  margin-left: 64px;
+  position: relative;
+  top: -6px;
+  font-size: 24px;
+}
+.m-lycifo .tit * {
+  vertical-align: middle;
+}
+.m-lycifo .tit em {
+  margin-right: 7px;
+}
+.m-lycifo .cnt {
+  float: right;
+  width: 414px;
+}
+.m-lycifo .des {
+  margin: 10px 0;
+}
+.m-lycifo .des span {
+  color: #333;
+}
+.m-lycifo .cvrwrap {
+  float: left;
+  width: 206px;
+  margin-right: -226px;
+}
+.m-lycifo .cvrwrap .des {
+  text-decoration: underline;
+}
+.m-lycifo .cvrwrap .out {
+  float: left;
+  margin: 20px 0 0 46px;
+}
+.m-lycifo .hd .lab {
+  float: left;
+}
+.m-lycifo .bd {
+  height: 299px;
+  margin-top: 13px;
+  line-height: 23px;
+}
+.m-lycifo .bd-open {
+  height: auto;
+}
+.m-lycifo .crl {
+  margin-top: 5px;
+}
+.u-btni-addply {
+  float: left;
+}
+.u-cover-6 {
+  width: 198px;
+  height: 198px;
+}
+.u-cover {
+  position: relative;
+  display: block;
+}
+.u-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.u-cover .msk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.f-fl {
+  float: left;
+}
+.u-cover-6 img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  /* margin: 34px; */
+}
+.u-cover-6 .msk {
+  position: absolute;
+  width: 206px;
+  height: 205px;
+  top: -4px;
+  left: -4px;
+  /* background-position: -140px -580px; */
+}
+.u-icn-95 {
+  width: 16px;
+  height: 16px;
+  background-position: -34px -863px;
+}
+.u-icn, .u-icn2, .u-icn3 {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+em, i {
+  font-style: normal;
+  text-align: left;
+  font-size: inherit;
+}
+.u-icn-37 {
+  width: 54px;
+  height: 24px;
+  background-position: 0 -243px;
+}
+.u-icn, .u-icn2, .u-icn3 {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.m-info .btns {
+  margin-bottom: 25px;
+  margin-right: -10px;
+}
+.u-btni-addply {
+  float: left;
+}
+.u-btni-addply .ply {
+  float: left;
+  width: 20px;
+  height: 18px;
+  margin: 6px 2px 2px 0;
+  background-position: 0 -1622px;
+  overflow: hidden;
+}
+.u-btni-addply i {
+  padding: 0 7px 0 8px;
+}
+.u-btn2-2 i {
+  color: #fff;
+  background-position: 0 -387px;
+}
+.u-btn2 i {
+  padding: 0 15px 0 20px;
+  pointer-events: none;
+}
+.u-btn2 {
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+}
+.u-btn2-2 {
+  color: #fff;
+  background-position: right -428px;
+}
+.u-btn2, .u-btn2:hover {
+  text-decoration: none;
+}
+.m-info .btns .u-btni-add {
+  margin-right: 5px;
+}
+.u-btni-add {
+  width: 31px;
+  margin-left: -3px;
+  padding-right: 0;
+  background-position: 0 -1588px;
+}
+.u-btni {
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+}
+.u-btni, .u-btni i {
+  float: left;
+  height: 31px;
+  line-height: 30px;
+  min-width: 23px;
+  cursor: pointer;
+}
+.m-info .btns2 .u-btni, .m-info .btns .u-btni {
+  margin-right: 6px;
+  font-family: simsun,\5b8b\4f53;
+}
+.u-btni-share, .u-btni-fav, .u-btni-cmmt, .u-btni-dl {
+  background-position: right -1020px;
+}
+.u-icn-69, .u-icn-70 {
+  width: 11px;
+  height: 8px;
+  background-position: -65px -520px;
+}
+.u-btni-fav i {
+  background-position: 0 -977px;
+}
+.u-btni-share i {
+  background-position: 0 -1225px;
+}
+.u-btni-dl i {
+  background-position: 0 -2761px;
+}
+.u-btni-cmmt i {
+  background-position: 0 -1465px;
+}
+.u-btni-share i, .u-btni-fav i, .u-btni-cmmt i, .u-btni-dl i, .u-btni-unfav i {
+  padding-right: 2px;
+  padding-left: 28px;
+}
+.f-hide{
+  display: none ;
+}
+.js-hide {
+  display: none ;
+}
+.lrc-user {
+  text-align: right;
+  margin-top: 48px;
+  line-height: 30px;
+}
+/* 歌词部分完成 现在开始右边侧边栏 */
+.g-sd4 {
+  position: relative;
+  float: right;
+  width: 270px;
+  zoom: 1;
+}
+.g-wrap7 {
+  padding: 20px 40px 40px 30px;
+}
+.m-sidead {
+  margin-bottom: 40px;
+}
+.m-rctlist {
+  margin-bottom: 25px;
+}
+.m-rctlist li {
+  float: left;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.m-rctlist .by {
+  float: left;
+}
+.m-rctlist .nm {
+  float: left;
+  max-width: 106px;
+  margin: 0 2px 0 4px;
+}
+.m-rctlist .info {
+  margin-left: 60px;
+  line-height: 24px;
+}
+.m-rctlist .info p {
+  width: 140px;
+}
+.m-rctlist .cver, .n-rctlist .cver img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.u-hd3 {
+  position: relative;
+  *zoom: 1;
+  height: 23px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+}
+/* 下面推荐歌曲部分 */
+.m-sglist {
+  margin-bottom: 25px;
+}
+.m-sglist li {
+  margin-top: 10px;
+}
+.m-sglist .txt {
+  float: left;
+  width: 156px;
+  line-height: 16px;
+}
+.m-sglist .opr {
+  float: right;
+  position: relative;
+  top: 10px;
+  line-height: 32px;
+}
+.m-sglist .opr .play {
+  margin-right: 16px;
+  background-position: -69px -455px;
+}
+.m-sglist .opr .add {
+  background-position: -87px -454px;
+}
+/* 多端音乐下载部分 */
+.m-multi {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+.m-multi .bg {
+  height: 65px;
+  margin-bottom: 10px;
+  background-position: 0 -392px;
+}
+.m-multi .bg li {
+  float: left;
+}
+.m-multi .bg a {
+  display: block;
+  width: 42px;
+  height: 48px;
+  text-indent: -9999px;
+}
+audio {
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  margin-left: -230px;
+  margin-bottom: 125px;
+  height: 37px;
+  width: 421px;
+  z-index: 999;
+}
+/* 开始歌单部分 */
+
+.gedan-hd {
+  width: 640px;
+  height: 35px;
+  border-bottom: 2px solid #c20c0c;
+  line-height: 35px;
+}
+.gedan-hd h3{
+     display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+}
+.gedan-hd span {
+  display: inline-block;
+}
+.gedan-hd .hd-sh {
+  margin-left: 10px;
+}
+.gedan {
+  width: 640px;
+  height: 340px;
+}
+
+.m-table {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+}
+.m-table thead {
+  width: 639px;
+  height: 38.5px;
+  background: url(../img/table.png) no-repeat;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  text-align: left;
+
+}
+.m-table thead span {
+  padding-left: 10px;
+}
+.m-table .th1{
+    width: 74px;
+   
+}
+.m-table .th2 {
+   width: 235px;
+
+}
+.m-table .th3 {
+  width: 111px;
+}
+.m-table .th4 {
+  width: 89px;
+}
+.m-table tbody tr {
+  height: 30px;
+  box-sizing: border-box;
+}
+.m-table tbody td {
+  height: 18px;
+  padding-left: 8px;
+  line-height: 18px;
+}
+.m-table .even td {
+  background-color: #f7f7f7;
+}
+
+.m-table tbody td .hd-bg {
+  display: inline-block;
+ width: 17px;
+  height: 17px;
+  background: url(../img/table.png) no-repeat;
+  background-position: 0 -103px;
+  margin-right: 10px;
+   line-height: 17px;
+
+}
+.m-table tbody td div {
+  display: flex;
+   height: 18px;
+  text-align: left;
+  justify-content: space-between;
+}

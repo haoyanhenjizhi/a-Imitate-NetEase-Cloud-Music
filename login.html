@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 19px;
+    }
+
+    .f-cb:after {
+      clear: both;
+      content: '.';
+      display: block;
+      height: 0;
+      visibility: hidden;
+    }
+
+    .zcil {
+      background: url(img/layer.png) no-repeat 0 9999px;
+    }
+
+    .login {
+      position: relative;
+      width: 530px;
+      height: 372px;
+      border: 1px solid #ccc;
+      margin: 150px auto;
+    }
+
+    .login-hd {
+      height: 38px;
+      background-color: #2d2d2d;
+      box-shadow: 0 2px 2px #2d2d2d;
+      color: #fff;
+      line-height: 38px;
+      padding-left: 20px;
+    }
+
+
+    .login-bd-zuo {
+      float: left;
+    }
+
+    .login-bd-you {
+      float: right;
+      text-align: center;
+    }
+
+    .login-bd-zuo img {
+      width: 125px;
+      height: 220px;
+      margin: 25px 0 15px 100px;
+    }
+
+    .login-bd-you {
+      float: right;
+      margin-right: 50px;
+      margin-top: 35px;
+    }
+
+    .login-bd-you img {
+      width: 138px;
+      height: 138px;
+      margin: 10px 0;
+    }
+
+    .login-bd-you p {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .login-bd-ft {
+      margin: 15px auto;
+      text-align: center;
+    }
+
+    .login-bd-ft-btn {
+      width: 120px;
+      height: 30px;
+      font-size: 12px;
+      border-radius: 15px;
+      background-color: #fff;
+      border: 1px solid #979797;
+      cursor: pointer;
+    }
+
+    .zcil {
+      position: absolute;
+      top: 16px;
+      right: 11px;
+      width: 10px;
+      height: 10px;
+      color: #ccc;
+      background-position: 0 -95px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <div class="login-hd">
+      登录
+      <div class="zcil">
+      </div>
+    </div>
+    <div class="login-bd f-cb">
+      <div class="login-bd-zuo">
+        <img src="img/登录左.png" alt="">
+      </div>
+      <div class="login-bd-you">
+        <h2>扫码登录</h2>
+        <img src="img/二维码.png" alt="">
+        <p>使用网易云音乐APP扫码登录</p>
+      </div>
+    </div>
+    <div class="login-bd-ft">
+      <button class="login-bd-ft-btn">选择其他登录方式</button>
+    </div>
+  </div>
+</body>
+
+</html>

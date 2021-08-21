@@ -1,0 +1,315 @@
+.g-topbar {
+  width: 1519px;
+  height: 105px;
+}
+
+.m-top {
+  width: 1519px;
+  height: 70px;
+  background-color: #242424;
+}
+
+.m-top .wrap {
+  position: relative;
+  width: 1100px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.m-top .logo {
+  float: left;
+  width: 176px;
+  height: 69px;
+  background: url(../img/topbar.png) no-repeat;
+}
+
+.j-tflag {
+  display: flex;
+  justify-content: space-between;
+  width: 508px;
+  height: 70px;
+}
+
+.j-tflag li {
+  height: 70px;
+  position: relative;
+}
+
+.j-tflag li span {
+  display: block;
+  width: 94px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.j-tflag li span:hover {
+  background-color: #000;
+}
+
+.j-tflag li span em {
+  color: #fff;
+  font-size: 14px;
+}
+
+.j-tflag li span .cor {
+  position: absolute;
+  display: block;
+  top: 64px;
+  left: 50%;
+  width: 12px;
+  height: 7px;
+  margin-left: -6px;
+  overflow: hidden;
+  background: url(../img/topbar.png) no-repeat;
+  background-position: -226px 0;
+}
+
+.m-tophead {
+  position: absolute;
+  top: 28px;
+  right: 10px;
+  float: right;
+  height: 45px;
+}
+
+.m-tophead .link {
+  display: block;
+  width: 28px;
+  height: 16px;
+  color: #787878;
+}
+
+.m-tophead .link:hover {
+  color: #999;
+}
+
+.m-srch {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  width: 158px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+
+.m-srch .srchbg {
+  background: url(../img/topbar.png) no-repeat 0px -99px;
+}
+
+.m-srch {
+  line-height: 32px;
+}
+
+.srchbg .parent input {
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 120px;
+}
+
+.wrap::after {
+  clear: both;
+  content: '.';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.m-nav {
+  float: left;
+}
+
+.m-nav a:hover {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+.m-subnav {
+  z-index: 90;
+  height: 35px;
+
+  box-sizing: border-box;
+  background-color: #C20C0C;
+  border-bottom: 1px solid #a40011;
+}
+
+.m-subnav .wrap2 {
+  width: 1100px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.m-subnav .nav {
+  float: left;
+  width: 744px;
+  height: 34px;
+  padding-left: 180px;
+}
+
+.m-subnav .nav a:hover,
+.m-subnav .nav a.z-slt {
+  color: #fff;
+  text-decoration: none;
+}
+
+.m-subnav .nav li,
+.m-subnav .nav a {
+  float: left;
+  height: 34px;
+  text-align: center;
+}
+
+.m-subnav .nav a:hover em,
+.m-subnav .nav a .z-slt em {
+  background: #9B0909;
+}
+
+.m-subnav .nav a em {
+  display: inline-block;
+  height: 20px;
+  padding: 0 13px;
+  margin: 7px 17px 0;
+  border-radius: 20px;
+  line-height: 21px;
+}
+
+/* 上面为头部 */
+/* 这里开始底部 */
+/* 这里是第一个p元素 也就是服务条款这里的样式 */
+.g-ft {
+  position: relative;
+  height: 172px;
+  overflow: hidden;
+  border-top: 1px solid #d3d3d3;
+  background: #fafafa;
+}
+
+.m-ft {
+  width: 980px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+.wrap3 {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.m-ft .copy {
+  float: left;
+  width: 520px;
+  padding-top: 15px;
+  line-height: 24px;
+}
+
+.s-fc4,
+a.s-fc4:hover {
+  color: #999;
+}
+
+a,
+a *,
+.f-hand,
+.f-hand * {
+  cursor: pointer;
+}
+
+.m-ft .copy .line {
+  margin: 0 8px 0 10px;
+  color: #c2c2c2;
+}
+
+/* 从这里开始第二个p也就是s-fc3样式部分 */
+.s-fc3,
+a.s-fc3:hover {
+  color: #666;
+}
+
+.m-ft .copy .sep {
+  margin-right: 14px;
+}
+
+/* 第三个p */
+/* .m-ft .copy .police-link {
+  margin-left: 5px;
+  font-size: 0;
+} */
+/* 底部左边完成 现在开始是右边 */
+.m-ft .enter {
+  width: 420px;
+  margin-top: 33px;
+  height: 70px;
+}
+
+.f-fr {
+  float: right;
+}
+
+.m-ft .enter .unit:first-child {
+  margin-left: 0;
+}
+
+.m-ft .enter .unit {
+  float: left;
+  width: 60px;
+  height: 70px;
+  margin-left: 30px;
+  text-align: center;
+  color: #666;
+}
+
+.m-ft .logo.logonew {
+  background: url(../img/foot_enter_new.png) no-repeat;
+  background-size: 110px 552px;
+}
+
+.m-ft .logonew.logo-amped {
+  background-position: -63px -456.5px;
+}
+
+.m-ft .logonew {
+  display: block;
+  float: none;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.m-ft .logonew {
+  display: block;
+  float: none;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+.m-ft .enter .tt {
+  display: inline-block;
+  margin: 5px 5px 0;
+  width: 52px;
+  height: 14px;
+}
+
+.m-ft .logonew+.tt {
+  background: url(../img/foot_enter_tt.png) no-repeat;
+  background-size: 180px 139px;
+}
+
+.m-ft .logonew.logo-auth {
+  background-position: -63px -101px;
+}
+
+.m-ft .logo.logonew {
+  background: url(../img/foot_enter_new.png) no-repeat;
+  background-size: 110px 552px;
+}
+
+.m-ft .logonew {
+  display: block;
+  float: none;
+  width: 50px;
+  height: 45px;
+  margin: 0 auto;
+}
